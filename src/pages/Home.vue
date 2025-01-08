@@ -4,7 +4,8 @@ import HomeCarousel from '../components/HomeCarousel.vue'
 
 <template>
   <div class="home">
-    <HomeCarousel />
+    <p>page home </p>
+      <HomeCarousel />
   </div>
 </template>
 

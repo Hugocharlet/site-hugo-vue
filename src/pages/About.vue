@@ -10,7 +10,7 @@ onMounted(() => {
 <template>
   <div class="about-wrapper">
     <div class="photo-profile">
-      <img src="/images/fond.jpg" data-aos="fade" alt="image fond" />
+      <img src="/site-hugo-vue/images/fond.jpg" data-aos="fade" alt="image fond" />
     </div>
 
     <div class="colonne-container" data-aos="fade-up">
@@ -130,6 +130,10 @@ hr {
   height: 1px;
   background-color: #afafaf;
   margin-bottom: 0.5rem;
+  transform: translateZ(0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  will-change: transform;
 }
 
 .photo-profile {
